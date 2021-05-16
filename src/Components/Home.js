@@ -10,7 +10,7 @@ const Nav = () => {
           <NavBar className='list-unstyled lead d-flex justify-content-around'>
             <NavLink id='order-pizza' to='/' className=''><b>Home</b></NavLink>
             <NavLink to='/menu' className=''><b>Toppings</b></NavLink>
-            <NavLink to='/pizza' className=''><b>Build Your Pizza</b></NavLink>
+            <NavLink id='pizza-form' to='/pizza' className=''><b>Build Your Pizza</b></NavLink>
           </NavBar>
       </div>
     </React.Fragment>

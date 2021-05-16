@@ -39,7 +39,7 @@ const PizzaBuilder = () => {
       <FormBody className='text-center mt-5'>
 
         <h3 className='mb-4'>Contact</h3>
-        <form className='d-flex justify-content-center flex-column'>
+        <form className='d-flex justify-content-center flex-column' id='pizza-form'>
           <label forHtml='name'>Name:
             <input
               id='name-input'
@@ -78,7 +78,7 @@ const PizzaBuilder = () => {
           <label forHtml='pepperoni'>Pepperoni
             <input
               id='pepperoni'
-              name='toppings'
+              name='pepperoni'
               type='checkbox'
               onChange={inputChange}
               className='ml-2'
@@ -88,7 +88,7 @@ const PizzaBuilder = () => {
           <label forHtml='sausage'>Sausage
             <input
               id='sausage'
-              name='toppings'
+              name='sausage'
               type='checkbox'
               onChange={inputChange}
               className='ml-2'
@@ -98,7 +98,7 @@ const PizzaBuilder = () => {
           <label forHtml='mushroom'>Mushroom
             <input
               id='mushroom'
-              name='toppings'
+              name='mushroom'
               type='checkbox'
               onChange={inputChange}
               className='ml-2'
@@ -108,7 +108,7 @@ const PizzaBuilder = () => {
           <label forHtml='onion'>Onion
             <input
               id='onion'
-              name='toppings'
+              name='onion'
               type='checkbox'
               onChange={inputChange}
               className='ml-2'
