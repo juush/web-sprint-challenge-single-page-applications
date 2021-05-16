@@ -42,7 +42,7 @@ const PizzaBuilder = () => {
         <form className='d-flex justify-content-center flex-column'>
           <label forHtml='name'>Name:
             <input
-              id='name'
+              id='name-input'
               name='name'
               type='text'
               onChange={inputChange}
@@ -65,7 +65,7 @@ const PizzaBuilder = () => {
           <h3 className='mt-5'>Pizza!</h3>
           <label forHtml='size'>Which Size?
             <select
-              id='size'
+              id='size-dropdown'
               name='size'
               className='ml-3 pl-3 pr-3 form-control' onChange={inputChange}>
               <option>Small</option>
@@ -118,7 +118,7 @@ const PizzaBuilder = () => {
           <label forHtml='special' className='d-flex justify-content-center flex-column'>
             <h3 className=''>Special Instructions</h3>
             <Special
-              id='special'
+              id='special-text'
               name='special'
               className='form-control'
               onChange={inputChange}
