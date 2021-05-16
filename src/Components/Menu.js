@@ -3,7 +3,7 @@ import { NavBar } from './Styled.js';
 import { NavLink } from 'react-router-dom';
 import { ToppingsList } from './Styled.js';
 
-const Nav = () => {
+const Menu = () => {
   return (
     <React.Fragment>
       <div>
@@ -20,4 +20,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Menu;
