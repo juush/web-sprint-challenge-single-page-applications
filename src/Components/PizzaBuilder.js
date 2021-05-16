@@ -127,7 +127,7 @@ const PizzaBuilder = () => {
 
           <label forHtml='submit'>
             <input
-              id='submit'
+              id='order-button'
               name='submit'
               type='submit'
               className='btn btn-primary'
